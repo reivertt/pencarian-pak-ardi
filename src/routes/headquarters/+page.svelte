@@ -12,7 +12,7 @@
 	import TerminalRows from '$lib/components/TerminalRows.svelte';
 	import TerminalTitle from '$lib/components/TerminalTitle.svelte';
 	import Time from '$lib/components/Time.svelte';
-	import type { TerminalRow } from '$lib/components/terminal';
+	import type { TerminalRow } from '$lib/components/Terminal';
 	import { gameStore, generateGame } from '$lib/game';
 	import { getRandomValue, redirectTo } from '$lib/helpers';
 	import Continue from '$lib/icons/Continue.svg.svelte';

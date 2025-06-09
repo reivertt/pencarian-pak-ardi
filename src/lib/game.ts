@@ -5,7 +5,7 @@ import { getArtworkPath, getRandomValue } from '$lib/helpers';
 import { getSuspectWarrantKeys, Suspect, type WarrantKeys } from './suspects';
 import { format } from 'date-fns';
 import enUS from 'date-fns/locale/en-US/index';
-import es from 'date-fns/locale/es/index';
+import id from 'date-fns/locale/id/index';
 import { writable } from 'svelte/store';
 import type { LocalizedString } from 'typesafe-i18n';
 
@@ -588,7 +588,7 @@ function getTranslationFromArray(localizedArray: LocalizedArray): string[] {
 
 export function getFormattedTime(time: Date, locale: Locales): string {
 	// Format the time as "Monday 9:00 am" / "Lunes 9:00 am"
-	const formattedTime = format(time, 'EEEE h:mm aaa', { locale: locale === 'en' ? enUS : es });
+	const formattedTime = format(time, 'EEEE h:mm aaa', { locale: locale === 'en' ? enUS : id });
 
 	// Capitalize the first letter
 	return formattedTime.charAt(0).toUpperCase() + formattedTime.slice(1);

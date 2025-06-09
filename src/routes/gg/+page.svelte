@@ -10,7 +10,7 @@
 	import TerminalRows from '$lib/components/TerminalRows.svelte';
 	import Time from '$lib/components/Time.svelte';
 	import TrailingSuspect from '$lib/components/TrailingSuspect.svelte';
-	import type { TerminalRow } from '$lib/components/terminal';
+	import type { TerminalRow } from '$lib/components/Terminal';
 	import { gameStore, getFormattedTime, type Atlas, SUSPECT_TRAIL_SCENE_DURATION } from '$lib/game';
 	import { delay, redirectTo } from '$lib/helpers';
 	import Continue from '$lib/icons/Continue.svg.svelte';

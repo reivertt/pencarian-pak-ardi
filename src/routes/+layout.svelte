@@ -7,7 +7,7 @@
 
 	onMount(() => {
 		const locale: Locales =
-			$playerStore?.locale ?? detectLocale('en', ['en', 'es'], navigatorDetector);
+			$playerStore?.locale ?? detectLocale('en', ['en', 'id'], navigatorDetector);
 		applyLocale(locale, playerStore);
 	});
 </script>

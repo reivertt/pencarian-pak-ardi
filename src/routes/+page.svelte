@@ -45,8 +45,8 @@
 					>
 					<Button
 						compact={true}
-						disabled={$locale === 'es'}
-						on:click={() => applyLocale('es', playerStore)}>🇪🇸</Button
+						disabled={$locale === 'id'}
+						on:click={() => applyLocale('id', playerStore)}>🇮🇩</Button
 					>
 				</div>
 

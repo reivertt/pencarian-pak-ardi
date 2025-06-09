@@ -1,7 +1,7 @@
 <script lang="ts">
 	import TerminalParagraph from './TerminalParagraph.svelte';
 	import TerminalTitle from './TerminalTitle.svelte';
-	import type { TerminalRow } from './terminal';
+	import type { TerminalRow } from './Terminal';
 	import './typewriter-container.scss';
 	import { onMount, onDestroy } from 'svelte';
 	import Typewriter from 'svelte-typewriter';
