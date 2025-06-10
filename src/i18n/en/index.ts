@@ -43,9 +43,9 @@ import { speedyJakeZ } from './suspects/speedy-jake-z';
 
 const en = {
 	splash: {
-		title: 'Julia Sanfrancisco',
+		title: 'NusaRiddle',
 		introduction:
-			'Chase Julia and her accomplices across different countries, unraveling clues, solving puzzles, and expanding your geography knowledge in this exciting detective game.',
+			'Chase Ardi and his accomplices across different countries, unraveling clues, solving puzzles, and expanding your geography knowledge in this exciting detective game.',
 		newGame: 'New game',
 		about: 'About'
 	},

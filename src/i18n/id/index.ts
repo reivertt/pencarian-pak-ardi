@@ -1,35 +1,35 @@
 import type { Translation } from '$i18n/i18n-types';
 import en from '../en';
-import { argentina } from './atlases/argentina';
-import { australia } from './atlases/australia';
-import { brazil } from './atlases/brazil';
-import { canada } from './atlases/canada';
-import { china } from './atlases/china';
-import { comoros } from './atlases/comoros';
-import { egypt } from './atlases/egypt';
-import { france } from './atlases/france';
-import { greece } from './atlases/greece';
-import { hungary } from './atlases/hungary';
-import { iceland } from './atlases/iceland';
-import { india } from './atlases/india';
-import { iraq } from './atlases/iraq';
-import { italy } from './atlases/italy';
-import { japan } from './atlases/japan';
-import { mali } from './atlases/mali';
-import { mexico } from './atlases/mexico';
-import { nepal } from './atlases/nepal';
-import { norway } from './atlases/norway';
-import { papuaNewGuinea } from './atlases/papua-new-guinea';
-import { peru } from './atlases/peru';
-import { russia } from './atlases/russia';
-import { rwanda } from './atlases/rwanda';
-import { sanMarino } from './atlases/san-marino';
-import { singapore } from './atlases/singapore';
-import { sriLanka } from './atlases/sri-lanka';
-import { thailand } from './atlases/thailand';
-import { turkey } from './atlases/turkey';
-import { unitedKingdom } from './atlases/united-kingdom';
-import { unitedStates } from './atlases/united-states';
+import { aceh } from './atlases/aceh';
+import { ambon } from './atlases/ambon';
+import { balikpapan } from './atlases/balikpapan';
+import { bandarLampung } from './atlases/bandar-lampung';
+import { bandung } from './atlases/bandung';
+import { banjarmasin } from './atlases/banjarmasin';
+import { batam } from './atlases/batam';
+import { bima } from './atlases/bima';
+import { bitung } from './atlases/bitung';
+import { denpasar } from './atlases/denpasar';
+import { gorontalo } from './atlases/gorontalo';
+import { jakarta } from './atlases/jakarta';
+import { jayapura } from './atlases/jayapura';
+import { yogyakarta } from './atlases/yogyakarta';
+import { kupang } from './atlases/kupang';
+import { makassar } from './atlases/makassar';
+import { malang } from './atlases/malang';
+import { manado } from './atlases/manado';
+import { mataram } from './atlases/mataram';
+import { medan } from './atlases/medan';
+import { merauke } from './atlases/merauke';
+import { padang } from './atlases/padang';
+import { palembang } from './atlases/palembang';
+import { palu } from './atlases/palu';
+import { pekanbaru } from './atlases/pekanbaru';
+import { pontianak } from './atlases/pontianak';
+import { samarinda } from './atlases/samarinda';
+import { semarang } from './atlases/semarang';
+import { surabaya } from './atlases/surabaya';
+import { surakarta } from './atlases/surakarta';
 import { chrisLunchtime } from './suspects/chris-lunchtime';
 import { danielleSplash } from './suspects/danielle-splash';
 import { duchessIsabella } from './suspects/duchess-isabella';
@@ -202,36 +202,36 @@ const id = {
 		noWarrantIssued: 'No warrant has been issued.'
 	},
 	atlases: {
-		argentina,
-		australia,
-		brazil,
-		china,
-		comoros,
-		canada,
-		egypt,
-		france,
-		greece,
-		hungary,
-		iceland,
-		india,
-		iraq,
-		italy,
-		japan,
-		mali,
-		mexico,
-		nepal,
-		norway,
-		papuaNewGuinea,
-		peru,
-		russia,
-		rwanda,
-		sanMarino,
-		singapore,
-		sriLanka,
-		thailand,
-		turkey,
-		unitedKingdom,
-		unitedStates
+		aceh,
+		ambon,
+		balikpapan,
+		bandarLampung,
+		bandung,
+		banjarmasin,
+		batam,
+		bima,
+		bitung,
+		denpasar,
+		gorontalo,
+		jakarta,
+		jayapura,
+		yogyakarta,
+		kupang,
+		makassar,
+		malang,
+		manado,
+		mataram,
+		medan,
+		merauke,
+		padang,
+		palembang,
+		palu,
+		pekanbaru,
+		pontianak,
+		samarinda,
+		semarang,
+		surabaya,
+		surakarta
 	},
 	clues: {
 		introduction: [
