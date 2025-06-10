@@ -1,4 +1,4 @@
-export const jogja = {
+export const yogyakarta = {
 	city: 'Yogyakarta',
 	descriptions: {
 		0: 'Yogyakarta, often called Jogja, is the soul of Javanese culture and a center of arts, education, and heritage.',

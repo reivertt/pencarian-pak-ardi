@@ -13,7 +13,7 @@ import { denpasar } from './atlases/denpasar';
 import { gorontalo } from './atlases/gorontalo';
 import { jakarta } from './atlases/jakarta';
 import { jayapura } from './atlases/jayapura';
-import { jogja } from './atlases/jogja';
+import { yogyakarta } from './atlases/yogyakarta';
 import { kupang } from './atlases/kupang';
 import { makassar } from './atlases/makassar';
 import { malang } from './atlases/malang';
@@ -214,7 +214,7 @@ const en = {
 		gorontalo,
 		jakarta,
 		jayapura,
-		jogja,
+		yogyakarta,
 		kupang,
 		makassar,
 		malang,
